@@ -1287,6 +1287,10 @@ Prefab:
       propertyPath: m_SuspensionSpring.spring
       value: 36892.15
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013318341794, guid: 53c496fec7e88b444858ad01c2739816, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53c496fec7e88b444858ad01c2739816, type: 2}
   m_IsPrefabParent: 0

@@ -13,8 +13,9 @@ public class LevelUp : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider thing) {
-		if (thing.name == "SportsCar") {
-			SceneManager.LoadScene ("Level" + namer.ToString());
-		}
+
+		Debug.Log ("Level" + namer.ToString());
+		SceneManager.LoadScene ("Level" + namer.ToString());
+
 	}
 }
